@@ -1,0 +1,165 @@
+/* general*/
+body {
+  background: linear-gradient(to bottom, #ffffff 20%, #000000 100%);
+  width: 100%; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+h1 {
+  animation-duration: 3s;
+  animation-name: aparecer;
+  text-align: center;
+  font-family: 'Allura', cursive;
+  margin-top: 50px !important; }
+
+h2 {
+  font-family: fantasy;
+  text-align: center; }
+
+/* nav*/
+nav {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.link {
+  color: black; }
+  .link:hover {
+    color: red;
+    opacity: 0.2;
+    transition: 2s;
+    font-size: 1.5rem; }
+
+/* home */
+.reciente {
+  margin-top: 100px; }
+
+/* carusel*/
+.contenedorCarrusel {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 50px; }
+
+.contenedorCarrusel_caruselImag {
+  height: 200px;
+  width: 200px;
+  justify-content: space-between;
+  margin: 10px;
+  margin-bottom: 100px; }
+
+@media (max-width: 800px) {
+  .contenedorCarrusel_caruselImag {
+    height: 200px; } }
+
+/* Quienes somos */
+.quienesSomos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px;
+  justify-items: center;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin: 100px;
+  padding: 50px;
+  margin-left: 50px; }
+
+.quienesSomos_parrrafo {
+  text-align: left; }
+
+/* galeria */
+.galeria {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 300px 350px;
+  justify-items: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 9px 21px 6px rgba(42, 42, 42, 0.555);
+  text-align: center;
+  font-family: 'Allura', cursive;
+  font-size: 25px; }
+
+.galeria img {
+  height: 350px;
+  width: 300px;
+  padding: none; }
+
+@media (max-width: 2000px) {
+  .galeria img {
+    height: 200px; } }
+
+/* cursos */
+.cursos {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 350px 500px;
+  justify-items: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left; }
+
+.imgestudi {
+  height: 300px;
+  width: 350px; }
+
+.imgequip {
+  height: 300px;
+  width: 500px; }
+
+.cursos img {
+  padding: none; }
+
+/* contacto */
+#inputCompleto {
+  width: 100%; }
+
+#inputButton {
+  width: 100px;
+  display: inline-block;
+  flex-direction: row; }
+
+input {
+  padding: 12px 20px;
+  box-sizing: border-box; }
+
+textarea {
+  padding: 20px 25px;
+  margin: 8px 0;
+  box-sizing: border-box; }
+
+.formulario {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 100px; }
+
+input:focus {
+  width: 200px;
+  font-size: 24px; }
+
+/* footer */
+footer img {
+  height: 40px;
+  width: 40px; }
+
+footer div {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+footer p {
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center; }

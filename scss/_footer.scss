@@ -1,0 +1,17 @@
+ /* footer */
+ footer img
+ {
+     @include medidas(40px,40px);
+ }
+ footer div{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     
+     
+ }  
+ footer p{
+     color: #fff;
+     font-size: 0.8em;
+     text-align: center	;
+ }

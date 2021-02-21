@@ -1,0 +1,34 @@
+/* general*/
+body
+{
+	background: linear-gradient(to bottom,
+     #ffffff 20%, #000000 100%);
+     width: 100%;
+
+}
+
+@keyframes aparecer 
+{
+	0% 
+	{ 
+	opacity: 0;
+	}
+	100% 
+	{
+	opacity: 1;
+	}
+}
+h1 {
+	animation-duration: 3s;
+	animation-name: aparecer;
+	text-align: center;
+	font-family: 'Allura', cursive;
+	margin-top: 50px !important;
+ }
+ 
+
+h2
+{
+	font-family: fantasy;
+	text-align: center;
+}

@@ -1,0 +1,9 @@
+@mixin medidas($width, $height) {
+	height: $height;
+	width: $width;
+ }
+ 
+@import "general";
+@import "header";
+@import "footer";
+ 
